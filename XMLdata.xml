@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Transformace.xsl"?>
+<!--"Odkaz na github: https://github.com/xkolm036/znackovaci_jazyky"-->
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML_schema.xsd"> 
+  <!--Obecné nastavení-->
+  <game version="1.02 (222AXH)">
+    <author>Blizzard</author>
+    <ReleseDate>2015-07-01</ReleseDate>
+    <language>EN-US</language>
+    <subtitles lang="CZ">Enabled</subtitles>
+    <enable-sound>Enabled</enable-sound>
+    <difficult>Easy</difficult>
+    <tutorial>Enabled</tutorial>
+    <autosave></autosave>
+  </game>
+  <!--Nastaveni obrazovky-->
+  <display>
+    <display-mode>Fullscreen</display-mode>
+    <resolution>1920 X 1200</resolution>
+    <refresh-rate>60 Hz</refresh-rate>
+    <aspect-ratio>16:9</aspect-ratio>
+    <monitor>Primary</monitor>
+    <anti-aliasing>SSAA 4x</anti-aliasing>
+    <gama>50</gama>
+  </display>
+  <!--Grafické nastavení-->
+  <graphics profile="Custom">
+    <textures>
+      <resolution>High</resolution>
+      <filtering>2x Anisotropic</filtering>
+    </textures>
+    <environment>
+      <view-distance>9</view-distance>
+      <environment-detail>5</environment-detail>
+      <ground-clutter>6</ground-clutter>
+    </environment>
+    <effects>
+      <depth-effects>Good</depth-effects>
+      <shadow-quality>Good</shadow-quality>
+      <water-quality>Ultra</water-quality>
+      <weather-quality>High</weather-quality>
+      <grass-quality>Low</grass-quality>
+      <reflection-quality>High</reflection-quality>
+      <SSAO>Low</SSAO>
+      <Graphic-API>DirectX 11</Graphic-API>
+      <post-procces-aa>FXAA Low</post-procces-aa>
+      <motion_blur>Enabled</motion_blur>
+      <Tesselation>Good</Tesselation>
+    </effects>
+  </graphics>
+  <!--Nastavení zvuku-->
+  <sound>
+    <Hardware sound-output="System default">
+      <sound-channels>High(64)</sound-channels>
+      <sound-cache>Large(64MB)</sound-cache>
+    </Hardware>
+    <Volume master-volume="50">
+      <menu-music>50</menu-music>
+      <sound>100</sound> <!--Test-->
+      <music>45</music>
+      <ambience>50</ambience>
+      <dialog>35</dialog>
+      <voicechat enabled="Enabled" input-device="system default">
+        <volume>33</volume>
+        <mode>Push-To-Talk</mode>
+        <microphone_sensitivity>33</microphone_sensitivity>
+        <microphone_volume>50</microphone_volume>
+      </voicechat>
+    </Volume>
+  </sound>
+  <!--Multiplayer-->
+  <multiplayer port="8080">
+    <server>US</server>
+    <maxping>100</maxping>
+  </multiplayer>
+  <!--Nastavení profilu-->
+  <profile nickname="Player">
+    <firtname>Jan</firtname>
+    <lastname>Patera</lastname>
+    <gender>Male</gender>
+    <age>20</age>
+    <nationality>American</nationality>
+    <email>Franta@sds.cz</email>
+  </profile>
+  <!--Nastavení ovládání-->
+  <controls>
+    <input>Mouse and keyboard</input>
+    <mouse-sensitivity> 40</mouse-sensitivity>
+    <inverted_mouse horizontal="Disabled" vertical="Disabled" />
+  </controls>
+</settings>
+
+
